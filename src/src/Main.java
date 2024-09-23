@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +20,21 @@ public class Main {
         String stringa = "terzo";
         for (int i = 0; i < Main.inserisciInArray(cinque, stringa).length; i++)
             System.out.println(Main.inserisciInArray(cinque, stringa)[i]);
+ //Esercizio 2
+        Scanner input = new Scanner( System.in);
+
+        System.out.println("inserisci la prima stringa: ");
+String stringa1 = input.nextLine();
+        System.out.println("inserisci la seconda stringa: ");
+        String stringa2 = input.nextLine();
+        System.out.println("inserisci la terza stringa: ");
+        String stringa3 = input.nextLine();
+                String concatenata = stringa1 + stringa2 + stringa3;
+        System.out.println("concatenazione : " + concatenata);
+
+        String concatenataInversa = stringa3 + stringa2 + stringa1;
+        System.out.println("concatenazione inversa: " + concatenataInversa);
+
 
     }
 
