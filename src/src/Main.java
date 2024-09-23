@@ -13,10 +13,28 @@ public class Main {
                         System.out.println(("il nome di " + nome + " e la sua età è " + age));
 
                         //esercizio 1.3
-        
+
+        // esercizio 1.3
+      String [] cinque = {"a","b","c","d","e"}
+              String stringa = "terzo"
+                      for(int i = 0; i< Main.inserisciInarray(cinque,stringa).legth;i ++)
+                          System.out.println(Main.inserisciInArray(cinque,stringa)[i]);
     }
     //esercizio 1.1
   static int moltiplica(int a, int b) {
         return a * b;
+    }
+
+    //esercizio 1.3
+    static String[] inserisciInArray(string[] cinque, String s) {
+ String[] sei = new String [6];
+ for(int i =0; i< sei.length; i++){
+     if(i <=1)
+         sei[i]= cinque [i];
+     
+
+
+ }
+
     }
 }
